@@ -43,7 +43,8 @@ Here's an example of the programming logic for a line following robot:
 4. Determine the position of the line (left, center, or right) based on the sensor values.
 5. Use if-else statements or a switch-case construct to make decisions based on the line position.
 6. For instance, if the line is detected on the left, slow down or reverse the left motor while keeping the right motor running forward. If the line is detected in the center, keep both motors running at the same speed. Adjust the motor speeds accordingly for the right line position.
-7. Repeat the loop continuously to track and follow the line.
+
+You can find the complete code in the [code.ino](code.ino) file.
 
 ## Testing and Calibration
 Once the code is uploaded and the connections are in place, perform the following steps to test and calibrate the line following robot:
